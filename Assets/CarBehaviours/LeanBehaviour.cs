@@ -15,7 +15,7 @@ public class LeanBehaviour : MonoBehaviour
             
         Vector3 localRotation = transform.localRotation.eulerAngles;
         localRotation.z = Mathf.Clamp(carBehaviour.turnAmount * maxAngle, -maxAngle, maxAngle);
-        transform.localRotation = Quaternion.Euler(localRotation);
+        transform.localRotation = Quaternion.Euler(localRotation); 
 
     }
 }
