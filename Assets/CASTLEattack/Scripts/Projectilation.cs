@@ -11,14 +11,20 @@ public class Projectilation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Vector3 forceDirection = transform.forward;
+        if (rigidbody == null) //It sugested to prevent error if it was nulled. But it is not needed because of the RequireComponent component of Rigidbody presnet.
+        {
+            rigidbody = GetComponent<Rigidbody>();
+        }
+        Vector3 forceDirection = transform.right;
 
-        rigidbody.AddForce(forceDirection * forceAmount, ForceMode.VelocityChange);
+        rigidbody.AddForce(forceDirection * forceAmount, ForceMode.VelocityChange); //Velocity-change does not use mass of obj.
     }
-
-    // Update is called once per frame
-    void Update()
+    void  OnCollisionEnter(Collision other) ///This will send a message to the system or trigger event.
     {
-        
-    }
+        print("Coolides with " +other.gameObject.name);
+        if (other.gameObject.CompareTag("Castle"))
+        {
+            Destroy(other.gameObject); //This is deleting blocks it touches.
+        }
+    } 
 }
