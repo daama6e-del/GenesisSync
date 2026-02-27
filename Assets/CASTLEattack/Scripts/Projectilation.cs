@@ -29,7 +29,7 @@ public class Projectilation : MonoBehaviour
             //Instatiate explosion orefab projectile when contact game object
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
             // Then destroy the cannonball prefab to prevent continuous explosions
-            Destroy(gameObject);
+            Destroy(gameObject); 
         }
     }
 }

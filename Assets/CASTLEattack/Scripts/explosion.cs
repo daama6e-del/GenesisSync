@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class explosion : MonoBehaviour
 {
+    public float force, radius, modifier;
+    public GameObject explosionFX;
     // Start is called before the first frame update
     void Start()
     {
-        
+        Invoke("DestroyExplosion", 0.1f); //pff thats why i had teh explosion script also on the cannon ball itself
+
     }
 
     void OnTriggerEnter(Collider OtHeR)
@@ -15,13 +18,13 @@ public class explosion : MonoBehaviour
         Rigidbody rigidbody = OtHeR.GetComponent<Rigidbody>();
         if (rigidbody)
         {
-            //rigidbody.AddExplosionForce
+            rigidbody.AddExplosionForce(force, transform.position, radius, modifier, ForceMode.VelocityChange);
         }
+        Instantiate(explosionFX, transform.position, Quaternion.identity);
     }
 
-    // Update is called once per frame
-    void Update()
+    void DestroyExplosion()
     {
-        
+        Destroy(gameObject);
     }
 }

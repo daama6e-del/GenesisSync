@@ -10,6 +10,7 @@ public class Cannon : MonoBehaviour
     public Animator animator; //Calls the animator parameter
     public Transform fireSocket; //Tracks direction and position of new projectiles.
     public float rotationRate = 90.0f;
+    public ParticleSystem fireFX; //Calls the particle system for firing the cannon.
 
     // Start is called before the first frame update
     void Start()
@@ -35,5 +36,6 @@ public class Cannon : MonoBehaviour
     {
         animator.SetTrigger("Fire"); //Triggers it, as it says...
         Instantiate(projectilePrefab, fireSocket.position, fireSocket.rotation); //This simple line is all is needed to spawn any gameObject or prefab with script! How exiting.
+        fireFX.Play(); //Plays the particle system for firing the cannon.
     }
 }
