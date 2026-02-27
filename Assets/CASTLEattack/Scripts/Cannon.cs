@@ -7,13 +7,14 @@ public class Cannon : MonoBehaviour
 {
 
     public GameObject projectilePrefab;
+    public Animator animator; //Calls the animator parameter
     public Transform fireSocket; //Tracks direction and position of new projectiles.
     public float rotationRate = 90.0f;
 
     // Start is called before the first frame update
     void Start()
     {
-         
+
     }
 
     // Update is called once per frame
@@ -32,6 +33,7 @@ public class Cannon : MonoBehaviour
 
     void Fire()
     {
-            Instantiate(projectilePrefab, fireSocket.position, fireSocket.rotation); //This simple line is all is needed to spawn any gameObject or prefab with script! How exiting.
+        animator.SetTrigger("Fire"); //Triggers it, as it says...
+        Instantiate(projectilePrefab, fireSocket.position, fireSocket.rotation); //This simple line is all is needed to spawn any gameObject or prefab with script! How exiting.
     }
 }

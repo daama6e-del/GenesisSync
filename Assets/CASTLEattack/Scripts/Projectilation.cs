@@ -4,9 +4,11 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 public class Projectilation : MonoBehaviour
+
 {
     public Rigidbody rigidbody;
     public float forceAmount = 15.0f;
+    public GameObject explosionPrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -15,16 +17,19 @@ public class Projectilation : MonoBehaviour
         {
             rigidbody = GetComponent<Rigidbody>();
         }
-        Vector3 forceDirection = transform.right;
+        Vector3 forceDirection = transform.forward; //Direction of force
 
         rigidbody.AddForce(forceDirection * forceAmount, ForceMode.VelocityChange); //Velocity-change does not use mass of obj.
     }
-    void  OnCollisionEnter(Collision other) ///This will send a message to the system or trigger event.
+    void OnCollisionEnter(Collision other) ///This will send a message to the system or trigger event.
     {
-        print("Coolides with " +other.gameObject.name);
+        print("Coolides with " + other.gameObject.name);
         if (other.gameObject.CompareTag("Castle"))
         {
-            Destroy(other.gameObject); //This is deleting blocks it touches.
+            //Instatiate explosion orefab projectile when contact game object
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            // Then destroy the cannonball prefab to prevent continuous explosions
+            Destroy(gameObject);
         }
-    } 
+    }
 }

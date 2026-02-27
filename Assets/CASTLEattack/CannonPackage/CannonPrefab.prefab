@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 5151507849348285813}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3.9999995}
+  m_LocalPosition: {x: 0, y: 0, z: 5.9999995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -58,8 +58,8 @@ Transform:
   m_GameObject: {fileID: 5151507849865114971}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.086717}
+  m_LocalScale: {x: 1, y: 1, z: 1.4357562}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4681329520228429218}
@@ -161,6 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4775416024580445510, guid: 9fefda81c47080a41a2867f035c89bed, type: 3}
+  animator: {fileID: 5457444423219787545}
   fireSocket: {fileID: 5151507849348285814}
   rotationRate: 90
 --- !u!1 &5457444423219787544
@@ -245,8 +246,8 @@ Transform:
   m_GameObject: {fileID: 5457444423341115746}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.004, z: -0.032717}
+  m_LocalScale: {x: 0.78787, y: 0.7847185, z: 2.6248865}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5151507849949604258}
