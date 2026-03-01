@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 159361705a7a96e45a669ed65bacddc8, type: 2}
     - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
       propertyPath: m_Name
-      value: Brick
+      value: StoneBlock
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
       propertyPath: m_TagString
@@ -106,7 +106,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8648962480404894746}
   serializedVersion: 4
-  m_Mass: 10
+  m_Mass: 20
   m_Drag: 0.07
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}

@@ -23,10 +23,10 @@ public class Projectilation : MonoBehaviour
     }
     void OnCollisionEnter(Collision other) ///This will send a message to the system or trigger event.
     {
-        print("Coolides with " + other.gameObject.name);
+        print("Collides with " + other.gameObject.name);
         if (other.gameObject.CompareTag("Castle"))
         {
-            //Instatiate explosion orefab projectile when contact game object
+            //Instatiate explosion prefab projectile when contact game object 
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
             // Then destroy the cannonball prefab to prevent continuous explosions
             Destroy(gameObject); 

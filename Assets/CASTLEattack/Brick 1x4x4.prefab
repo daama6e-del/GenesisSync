@@ -103,6 +103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubeBlock (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
+      propertyPath: m_TagString
+      value: Castle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -228,6 +232,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
       propertyPath: m_Name
       value: CubeBlock (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
+      propertyPath: m_TagString
+      value: Castle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -355,6 +363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubeBlock (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
+      propertyPath: m_TagString
+      value: Castle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -480,6 +492,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
       propertyPath: m_Name
       value: CubeBlock (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
+      propertyPath: m_TagString
+      value: Castle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -607,6 +623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubeBlock (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
+      propertyPath: m_TagString
+      value: Castle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -732,6 +752,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
       propertyPath: m_Name
       value: CubeBlock (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
+      propertyPath: m_TagString
+      value: Castle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -859,6 +883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubeBlock (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
+      propertyPath: m_TagString
+      value: Castle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -984,6 +1012,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
       propertyPath: m_Name
       value: CubeBlock (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
+      propertyPath: m_TagString
+      value: Castle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1172,6 +1204,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
       propertyPath: m_Name
       value: CubeBlock (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
+      propertyPath: m_TagString
+      value: Castle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1423,6 +1459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubeBlock (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
+      propertyPath: m_TagString
+      value: Castle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1548,6 +1588,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
       propertyPath: m_Name
       value: CubeBlock (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
+      propertyPath: m_TagString
+      value: Castle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1736,6 +1780,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
       propertyPath: m_Name
       value: CubeBlock (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02748f280fc512946ba50166cf62bb31, type: 3}
+      propertyPath: m_TagString
+      value: Castle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

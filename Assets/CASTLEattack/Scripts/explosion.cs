@@ -19,8 +19,9 @@ public class explosion : MonoBehaviour
         if (rigidbody)
         {
             rigidbody.AddExplosionForce(force, transform.position, radius, modifier, ForceMode.VelocityChange);
+            Instantiate(explosionFX, transform.position, explosionFX.transform.rotation);
         }
-        Instantiate(explosionFX, transform.position, Quaternion.identity);
+
     }
 
     void DestroyExplosion()
