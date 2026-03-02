@@ -19,10 +19,15 @@ public class CrownRules : MonoBehaviour
             if (score)
             {
                 score.Endlevel();
-                print("Level Ended!!!!!!!!!!!!!!"); //tester
+                //print("Level Ended!!!!!!!!!!!!!!"); //tester 
             }
             Instantiate(SupriseFX, transform.position, Quaternion.identity);
             Instantiate(explosionPrefab, transform.position, Quaternion.identity); //Keep an eye on this, make this optional-ready. Best way to show you won I guess
+            Invoke("DestroyGameObject", 1f);
         }
+    }
+    void DestroyGameObject()
+    {
+        Destroy(gameObject);
     }
 }

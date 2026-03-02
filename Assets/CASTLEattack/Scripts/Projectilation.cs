@@ -23,7 +23,7 @@ public class Projectilation : MonoBehaviour
     }
     void OnCollisionEnter(Collision other) ///This will send a message to the system or trigger event.
     {
-        print("Collides with " + other.gameObject.name);
+        //print("Collides with " + other.gameObject.name); //This optional debugger
         if (other.gameObject.CompareTag("Castle"))
         {
             //Instatiate explosion prefab projectile when contact game object 

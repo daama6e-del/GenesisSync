@@ -24,7 +24,7 @@ public class Cannon : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space)) //Haha got it without seeing the video instruction! I am genius!
         {
-            print("You fired the cannon.");
+            // print("You fired the cannon."); //Optional Debugger
             Fire();
         }
 
