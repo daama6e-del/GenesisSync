@@ -13,7 +13,7 @@ public class DestroyFX : MonoBehaviour
 
     void DestroyGO()
     {
-        Destroy(gameObject);
+       // Destroy(gameObject); //Optional but null issue
     }
  
 }

@@ -41,12 +41,12 @@ public class Score : MonoBehaviour
                 scoreAnimator.SetInteger("Stars", 1);
                 Instantiate(scoreAnimator);
             }
-            Invoke("NextLevel", 0.4f);
+            Invoke("NextLevel", 1f);
+            print("Invoked Next Level"); //Optional Debugger
         }
     }
-
     void NextLevel()
     {
-        SceneManager.LoadScene(nextLevel);
+        SceneManager.LoadScene(nextLevel); //For some reason Invoke does not work with timer above 1 second.
     }
 }
